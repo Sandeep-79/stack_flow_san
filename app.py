@@ -247,4 +247,4 @@ def get_data():
 if __name__ == '__main__':
     # Ensure the data directory exists
     os.makedirs(DATA_DIR, exist_ok=True)
-    app.run(debug=True) 
+    app.run() 
